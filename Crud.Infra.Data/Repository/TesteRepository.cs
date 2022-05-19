@@ -1,4 +1,5 @@
 ﻿using Crud.Domain.Entities;
+using Crud.Domain.Interfaces.Repository;
 using Crud.Shared;
 using Dapper;
 using System.Data.SqlClient;
@@ -6,13 +7,13 @@ using System.Linq;
 
 namespace Crud.Infra.Data.Repository
 {
-    public class TesteRepository
+    public class TesteRepository:ITesteRepository
     {
         public int Criar(Teste teste)
         {
             var query = @"insert into Teste (Nome, SobreNome, Email, Idade, DtCadastro)
                          values(@Nome, @SobreNome, @Email, @idade, GetDate())
-                        select scope_idetity()";
+                        select SCOPE_IDENTITY() ";
 
             using (var conn = new SqlConnection(Settings.ConnectionString))
             {

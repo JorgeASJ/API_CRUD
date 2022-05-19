@@ -1,0 +1,17 @@
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Infra.Data.deps.json
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Infra.Data.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\ref\Crud.Infra.Data.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Infra.Data.pdb
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Domain.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Shared.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Domain.pdb
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\bin\Debug\net5.0\Crud.Shared.pdb
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.csproj.AssemblyReference.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.AssemblyInfoInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.AssemblyInfo.cs
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.csproj.CopyComplete
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\ref\Crud.Infra.Data.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Infra.Data\obj\Debug\net5.0\Crud.Infra.Data.pdb

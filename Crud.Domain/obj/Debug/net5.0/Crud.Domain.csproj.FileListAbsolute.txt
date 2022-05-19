@@ -1,0 +1,12 @@
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\bin\Debug\net5.0\Crud.Domain.deps.json
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\bin\Debug\net5.0\Crud.Domain.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\bin\Debug\net5.0\ref\Crud.Domain.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\bin\Debug\net5.0\Crud.Domain.pdb
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.csproj.AssemblyReference.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.AssemblyInfoInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.AssemblyInfo.cs
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.csproj.CoreCompileInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\ref\Crud.Domain.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.pdb

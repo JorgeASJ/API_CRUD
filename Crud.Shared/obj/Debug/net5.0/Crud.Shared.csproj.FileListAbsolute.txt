@@ -1,0 +1,12 @@
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.deps.json
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\bin\Debug\net5.0\ref\Crud.Shared.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.pdb
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.AssemblyReference.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.AssemblyInfoInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.AssemblyInfo.cs
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.CoreCompileInputs.cache
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\ref\Crud.Shared.dll
+C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.pdb
