@@ -10,3 +10,14 @@ C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.CoreCom
 C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.dll
 C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\ref\Crud.Shared.dll
 C:\Desev\GITHUB\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.pdb
+D:\Desenv\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.deps.json
+D:\Desenv\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.dll
+D:\Desenv\API_CRUD\Crud.Shared\bin\Debug\net5.0\ref\Crud.Shared.dll
+D:\Desenv\API_CRUD\Crud.Shared\bin\Debug\net5.0\Crud.Shared.pdb
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.AssemblyInfoInputs.cache
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.AssemblyInfo.cs
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.CoreCompileInputs.cache
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.dll
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\ref\Crud.Shared.dll
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.pdb

@@ -18,6 +18,20 @@ namespace Crud.Domain.Services
             _testeRepository.Criar(teste);
             return teste;
         }
-
+        public Teste Deletar(Teste teste)
+        {
+            _testeRepository.Deletar(teste);
+            return teste;
+        }
+        public Teste Alterar(Teste teste)
+        {
+            _testeRepository.Alterar(teste);
+            return teste;
+        }
+        public Teste Visualizar(Teste teste)
+        {
+            _testeRepository.Visualizar(teste);
+            return teste;
+        }
     }
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {}
+    "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {
+    "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
+        "projectUniqueName": "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
         "projectName": "Crud.Domain",
-        "projectPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
-        "packagesPath": "C:\\Users\\jazevedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\obj\\",
+        "projectPath": "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
+        "packagesPath": "C:\\Users\\Moderna\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\API_CRUD\\Crud.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jazevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Moderna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

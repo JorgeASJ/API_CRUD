@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X56TRRMTObS072cZ2Mxpt/JahmPnote9dHzM5FaQaWfLSjkTx+ovnI8V1BKKY5jHkJiZ2ZBPQWwV8ZbDvsbNeg==",
+  "dgSpecHash": "7xZ6n4IjYO/hcDbkSr3j1laiosDmxMusDAP4qzTBEAvn0WSQVlZ8GUOKFn3kriuJZV89YcVeDHxfexOklEsaQg==",
   "success": true,
-  "projectFilePath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
+  "projectFilePath": "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

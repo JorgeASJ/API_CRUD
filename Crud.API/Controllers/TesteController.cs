@@ -21,5 +21,26 @@ namespace Crud.API.Controllers
         {
             return _testeService.Criar(teste);
         }
+
+        [HttpGet]
+        [Route("Visualizar")]
+        public Teste Visualizar([FromBody] Teste teste)
+        {
+            return _testeService.Visualizar(teste);
+        }
+
+        [HttpPost]
+        [Route("Alterar")]
+        public Teste Alterar([FromBody] Teste teste)
+        {
+            return _testeService.Alterar(teste);
+        }
+
+        [HttpPost]
+        [Route("Deletar")]
+        public Teste Deletar([FromBody] Teste teste)
+        {
+            return _testeService.Deletar(teste);
+        }
     }
 }

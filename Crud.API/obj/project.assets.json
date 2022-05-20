@@ -759,23 +759,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jazevedo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Moderna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.API\\Crud.API.csproj",
+      "projectUniqueName": "D:\\Desenv\\API_CRUD\\Crud.API\\Crud.API.csproj",
       "projectName": "Crud.API",
-      "projectPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.API\\Crud.API.csproj",
-      "packagesPath": "C:\\Users\\jazevedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.API\\obj\\",
+      "projectPath": "D:\\Desenv\\API_CRUD\\Crud.API\\Crud.API.csproj",
+      "packagesPath": "C:\\Users\\Moderna\\.nuget\\packages\\",
+      "outputPath": "D:\\Desenv\\API_CRUD\\Crud.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jazevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Moderna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -789,11 +785,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {
-              "projectPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj"
+            "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj": {
+              "projectPath": "D:\\Desenv\\API_CRUD\\Crud.Domain\\Crud.Domain.csproj"
             },
-            "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Infra.IoC\\Crud.Infra.IoC.csproj": {
-              "projectPath": "C:\\Desev\\GITHUB\\API_CRUD\\Crud.Infra.IoC\\Crud.Infra.IoC.csproj"
+            "D:\\Desenv\\API_CRUD\\Crud.Infra.IoC\\Crud.Infra.IoC.csproj": {
+              "projectPath": "D:\\Desenv\\API_CRUD\\Crud.Infra.IoC\\Crud.Infra.IoC.csproj"
             }
           }
         }
@@ -831,7 +827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
