@@ -23,10 +23,10 @@ namespace Crud.API.Controllers
         }
 
         [HttpGet]
-        [Route("Visualizar")]
-        public Teste Visualizar([FromBody] Teste teste)
+        [Route("Visualizar/{id}")]
+        public Teste Visualizar(int id)
         {
-            return _testeService.Visualizar(teste);
+            return _testeService.Visualizar(id);
         }
 
         [HttpPost]
@@ -37,10 +37,10 @@ namespace Crud.API.Controllers
         }
 
         [HttpPost]
-        [Route("Deletar")]
-        public Teste Deletar([FromBody] Teste teste)
+        [Route("Deletar/{id}")]
+        public void Deletar(int id)
         {
-            return _testeService.Deletar(teste);
+             _testeService.Deletar(id);
         }
     }
 }

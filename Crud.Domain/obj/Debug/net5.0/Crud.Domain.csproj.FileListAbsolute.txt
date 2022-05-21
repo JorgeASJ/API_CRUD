@@ -21,3 +21,4 @@ D:\Desenv\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.csproj.CoreCompileIn
 D:\Desenv\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.dll
 D:\Desenv\API_CRUD\Crud.Domain\obj\Debug\net5.0\ref\Crud.Domain.dll
 D:\Desenv\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.pdb
+D:\Desenv\API_CRUD\Crud.Domain\obj\Debug\net5.0\Crud.Domain.csproj.AssemblyReference.cache

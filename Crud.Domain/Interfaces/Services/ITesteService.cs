@@ -5,8 +5,8 @@ namespace Crud.Domain.Interfaces.Services
     public interface ITesteService
     {
         Teste Criar(Teste teste);
-        Teste Deletar(Teste teste);
-        Teste Visualizar(Teste teste);
+        void Deletar(int id);
+        Teste Visualizar(int id);
         Teste Alterar(Teste teste);
 
     }

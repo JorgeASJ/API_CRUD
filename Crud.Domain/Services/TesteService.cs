@@ -15,23 +15,25 @@ namespace Crud.Domain.Services
 
         public Teste Criar(Teste teste)
         {
-            _testeRepository.Criar(teste);
-            return teste;
+            var idTeste = _testeRepository.Criar(teste);
+
+            var consulta = _testeRepository.Visualizar(idTeste);
+
+            return consulta;
         }
-        public Teste Deletar(Teste teste)
+        public void Deletar(int id)
         {
-            _testeRepository.Deletar(teste);
-            return teste;
+            _testeRepository.Deletar(id);
+         
         }
         public Teste Alterar(Teste teste)
         {
             _testeRepository.Alterar(teste);
             return teste;
         }
-        public Teste Visualizar(Teste teste)
+        public Teste Visualizar(int id)
         {
-            _testeRepository.Visualizar(teste);
-            return teste;
+            return  _testeRepository.Visualizar(id);
         }
     }
 }

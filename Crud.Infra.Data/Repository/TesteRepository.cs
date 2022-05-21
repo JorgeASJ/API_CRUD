@@ -31,10 +31,9 @@ namespace Crud.Infra.Data.Repository
 
 
         }
-        public int Deletar(Teste teste)
+        public int Deletar(int id)
         {
-            var query = @"Delete from Teste Where id =(Select id from Teste where nome = @Nome and sobrenome = @sobrenome and email = @email )
-                        select SCOPE_IDENTITY() ";
+            var query = @"Delete from Teste Where id  = @id";
 
             using (var conn = new SqlConnection(Settings.ConnectionString))
             {
@@ -43,27 +42,26 @@ namespace Crud.Infra.Data.Repository
                 return conn.Query<int>(query,
                     new
                     {
-                        Nome = teste.Nome,
-                        Sobrenome = teste.SobreNome,
-                        Email = teste.Email
+                        id = id
                     }).FirstOrDefault();
             }
 
 
         }
-        public int Alterar(Teste teste)
+        public Teste Alterar(Teste teste)
         {
-            var query = @"update Teste set nome = @NovoNome, sobrenome = @NovoSobrenome, email = @NovoEmail, idade = @Novaidade
-                        Where nome = @Nome and sobrenome = @sobrenome 
-                        select SCOPE_IDENTITY() ";
+            var query = @"update Teste 
+                            set nome = @Nome, sobrenome = @Sobrenome, email = @Email, idade = @idade
+                            Where id = @id ";
 
             using (var conn = new SqlConnection(Settings.ConnectionString))
             {
                 conn.Open();
 
-                return conn.Query<int>(query,
+                return conn.Query<Teste>(query,
                     new
-                    {
+                    {   
+                        id = teste.ID,
                         Nome = teste.Nome,
                         Sobrenome = teste.SobreNome,
                         Email = teste.Email,
@@ -73,23 +71,20 @@ namespace Crud.Infra.Data.Repository
 
 
         }
-        public int Visualizar(Teste teste)
+        public Teste Visualizar(int id)
         {
-            var query = @"select Nome, SobreNome, Email, Idade, DtCadastro
-                          where nome = @Nome, sobrenome = @sobrenome, email = @email, idade - @idade
-                        select SCOPE_IDENTITY() ";
+            var query = @"select id, Nome, SobreNome, Email, Idade, DtCadastro
+                            From Teste
+                            where Id = @Id";
 
             using (var conn = new SqlConnection(Settings.ConnectionString))
             {
                 conn.Open();
 
-                return conn.Query<int>(query,
+                return conn.Query<Teste>(query,
                     new
                     {
-                        Nome = teste.Nome,
-                        Sobrenome = teste.SobreNome,
-                        Email = teste.Email,
-                        Idade = teste.Idade
+                        Id = id
                     }).FirstOrDefault();
             }
 

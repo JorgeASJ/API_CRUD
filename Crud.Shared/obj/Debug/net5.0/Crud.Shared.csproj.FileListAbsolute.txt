@@ -21,3 +21,4 @@ D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.CoreCompileIn
 D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.dll
 D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\ref\Crud.Shared.dll
 D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.pdb
+D:\Desenv\API_CRUD\Crud.Shared\obj\Debug\net5.0\Crud.Shared.csproj.AssemblyReference.cache
