@@ -1,4 +1,5 @@
 ﻿using Crud.Domain.Entities;
+using System.Collections.Generic;
 
 namespace Crud.Domain.Interfaces.Services
 {
@@ -8,6 +9,6 @@ namespace Crud.Domain.Interfaces.Services
         void Deletar(int id);
         Teste Visualizar(int id);
         Teste Alterar(Teste teste);
-
+        List<Teste> Listar();
     }
 }

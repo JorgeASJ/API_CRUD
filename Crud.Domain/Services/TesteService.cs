@@ -1,6 +1,7 @@
 ﻿using Crud.Domain.Entities;
 using Crud.Domain.Interfaces.Repository;
 using Crud.Domain.Interfaces.Services;
+using System.Collections.Generic;
 
 namespace Crud.Domain.Services
 {
@@ -34,6 +35,10 @@ namespace Crud.Domain.Services
         public Teste Visualizar(int id)
         {
             return  _testeRepository.Visualizar(id);
+        }
+        public List<Teste> Listar()
+        {
+            return _testeRepository.Listar();
         }
     }
 }

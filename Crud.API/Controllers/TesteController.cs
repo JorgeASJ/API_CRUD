@@ -1,6 +1,7 @@
 ﻿using Crud.Domain.Entities;
 using Crud.Domain.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace Crud.API.Controllers
 {
@@ -27,6 +28,13 @@ namespace Crud.API.Controllers
         public Teste Visualizar(int id)
         {
             return _testeService.Visualizar(id);
+        }
+
+        [HttpGet]
+        [Route("Listar")]
+        public List<Teste> Listar()
+        {
+            return _testeService.Listar();
         }
 
         [HttpPost]

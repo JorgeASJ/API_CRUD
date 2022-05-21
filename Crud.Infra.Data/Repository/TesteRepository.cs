@@ -2,6 +2,7 @@
 using Crud.Domain.Interfaces.Repository;
 using Crud.Shared;
 using Dapper;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 
@@ -86,6 +87,24 @@ namespace Crud.Infra.Data.Repository
                     {
                         Id = id
                     }).FirstOrDefault();
+            }
+
+
+        }
+
+        public List<Teste> Listar()
+        {
+            var query = @"select id, Nome, SobreNome, Email, Idade, DtCadastro
+                            From Teste";
+
+            using (var conn = new SqlConnection(Settings.ConnectionString))
+            {
+                conn.Open();
+
+                return conn.Query<Teste>(query,
+                    new
+                    {
+                    }).ToList();
             }
 
 
